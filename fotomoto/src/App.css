@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.post-inputs{
+  text-align: center;
+  display: block;
+}
+
+#upload-btn{
+  background-color: #44158f;
+}
+
+
+#upload-btn:hover{
+  background-color: #14d9d9;
+  color: #44158f;
+}
+
