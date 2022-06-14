@@ -52,7 +52,7 @@ const [loginPassword,setLoginPassword] = useState("");
         password: loginPassword
       },
       withCredentials:true,
-      url: "http://localhost:5000/auth/login"
+      url: "http://fotomotoapp.netlify.app/auth/login"
     })
       .then((res)=>{
         console.log(res)
@@ -133,7 +133,7 @@ const [loginPassword,setLoginPassword] = useState("");
               <Grid container>
                
                 <Grid item>
-                  <Link href="/signup" variant="body2">
+                  <Link href="https://fotomotoapp.netlify.app/signup" variant="body2">
                     {"Don't have an account? Sign Up"}
                   </Link>
                 </Grid>

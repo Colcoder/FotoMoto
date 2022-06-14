@@ -57,7 +57,7 @@ export default function SignUp() {
         cPassword:confirmPassword
       },
       withCredentials:true,
-      url: "http://localhost:5000/auth/register"
+      url: "https://fotomotoapp.netlify.app/auth/register"
      })
   }
 
