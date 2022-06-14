@@ -52,7 +52,7 @@ const [loginPassword,setLoginPassword] = useState("");
         password: loginPassword
       },
       withCredentials:true,
-      url: "http://fotomotoapp.netlify.app/auth/login"
+      url: process.env.API_URL+"/auth/login"
     })
       .then((res)=>{
         console.log(res)
